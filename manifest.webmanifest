@@ -1,0 +1,122 @@
+{
+  "name": "Memory Pro - Professional Edition",
+  "short_name": "Memory Pro",
+  "description": "Das ultimative Memory-Erlebnis für zwei Spieler mit modernem Design, verschiedenen Schwierigkeitsgraden und professionellen Features. Trainieren Sie Ihr Gedächtnis mit diesem klassischen Kartenspiel.",
+  "start_url": "/memory/",
+  "scope": "/memory/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f0f23",
+  "theme_color": "#8b5cf6",
+  "categories": ["games", "entertainment", "puzzle", "education"],
+  "lang": "de",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/memory/memory-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/memory/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Memory Pro Desktop Version"
+    },
+    {
+      "src": "/memory/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Memory Pro Mobile Version"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Schnelles Spiel starten",
+      "short_name": "Schnellspiel",
+      "description": "Starten Sie sofort ein Memory-Spiel mit mittlerer Schwierigkeit",
+      "url": "/memory/?action=quick-start",
+      "icons": [
+        {
+          "src": "/memory/memory-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Experten-Modus",
+      "short_name": "Experte",
+      "description": "Herausforderung für Memory-Profis",
+      "url": "/memory/?action=expert-mode",
+      "icons": [
+        {
+          "src": "/memory/memory-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
